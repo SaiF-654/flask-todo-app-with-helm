@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  full-stack:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-16T16:58:07.13529089Z"
+    dependencies:
+    - name: flask-app
+      repository: file://charts/flask-app
+      version: 0.1.0
+    - name: nginx-app
+      repository: file://charts/nginx-app
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: c71f28dd064e1934e97677d72169fa82840bd45f7a490ec5874922a95958c3fc
+    name: full-stack
+    type: application
+    urls:
+    - https://SaiF-654.github.io/helm-charts/full-stack-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-16T16:58:07.133776441Z"
